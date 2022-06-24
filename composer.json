@@ -1,0 +1,21 @@
+{
+    "name": "invoiceninja/gmail-api-mailer",
+    "description": "Send with Gmail via API",
+    "type": "library",
+    "require": {
+        "symfony/mailer": "^6.0",
+        "php": ">=8.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Invoiceninja\\GmailApiMailer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Bomba",
+            "email": "turbo124@gmail.com"
+        }
+    ]
+}
